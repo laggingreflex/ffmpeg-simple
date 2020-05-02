@@ -1,0 +1,16 @@
+{
+  "name": "ffmpeg-simple",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "bin": {
+    "ffmpeg-simple": "lib/bin.js",
+    "ffs": "lib/bin.js"
+  },
+  "repository": "laggingreflex/ffmpeg-simple",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^9.0.0",
+    "yargs": "^15.3.1"
+  }
+}
