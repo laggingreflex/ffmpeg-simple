@@ -9,9 +9,12 @@
   },
   "repository": "laggingreflex/ffmpeg-simple",
   "dependencies": {
+    "date-fns": "^2.13.0",
     "enquire-simple": "^2.4.0",
     "fluent-ffmpeg": "^2.1.2",
     "fs-extra": "^9.0.0",
+    "pretty-bytes": "^5.3.0",
+    "pretty-ms": "^7.0.0",
     "yargs": "^15.3.1"
   }
 }
