@@ -9,6 +9,7 @@
   },
   "repository": "laggingreflex/ffmpeg-simple",
   "dependencies": {
+    "enquire-simple": "^2.4.0",
     "fluent-ffmpeg": "^2.1.2",
     "fs-extra": "^9.0.0",
     "yargs": "^15.3.1"
