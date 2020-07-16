@@ -1,7 +1,7 @@
 {
   "name": "ffmpeg-simple",
   "version": "0.0.0",
-  "description": "",
+  "description": "Makes ffmpeg simple",
   "main": "lib/index.js",
   "bin": {
     "ffmpeg-simple": "lib/bin.js",

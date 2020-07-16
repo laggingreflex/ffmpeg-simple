@@ -1,6 +1,6 @@
 # ffmpeg-simple
 
-**Work In Progress**
+Makes using ffmpeg in NodeJS (and via CLI) simpler with a bunch of frequently used helpers (cut, concat, speed, rotate) and simpler params passing (input, filters)
 
 ## Install
 
