@@ -1,0 +1,19 @@
+{
+  "preset": "fast",
+  "presets": {
+    "fast": {
+      "videoCodec": "hevc_nvenc",
+      "preset": "fast"
+    },
+    "265": {
+      "videoCodec": "libx265",
+      "preset": "placebo"
+    },
+    "mobile": {
+      "preset": "slow"
+    },
+    "av1": {
+      "videoCodec": "libaom-av1"
+    }
+  }
+}
