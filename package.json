@@ -2,7 +2,12 @@
   "name": "ffmpeg-simple",
   "version": "0.2.0",
   "description": "Makes ffmpeg simple",
-  "main": "lib/index.js",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./*": "./lib/*",
+    "./utils": "./lib/utils.js"
+  },
   "bin": {
     "ffmpeg-simple": "lib/bin.js",
     "ffs": "lib/bin.js"
@@ -14,6 +19,7 @@
     "fluent-ffmpeg": "^2.1.2",
     "fs-extra": "^9.0.0",
     "glob": "^7.1.7",
+    "lodash": "^4.17.21",
     "pretty-bytes": "^5.3.0",
     "pretty-ms": "^7.0.0",
     "subtitle": "^2.0.3",
