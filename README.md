@@ -32,6 +32,7 @@ const { output, size, duration } = await ffmpeg({
   // audio: false,
   audioChannels: 1,
   treble: true, // or a number for gain (true == 5) -> -af "treble=g=5"
+  voice: true,  // enhances speech clarity -> -af "equalizer=f=3000:t=h:width=2000:g=4,highshelf=f=8000:g=3"
 })
 ```
 ```js
