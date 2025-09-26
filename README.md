@@ -31,6 +31,7 @@ const { output, size, duration } = await ffmpeg({
   speed: 2,
   // audio: false,
   audioChannels: 1,
+  treble: true, // or a number for gain (true == 5) -> -af "treble=g=5"
 })
 ```
 ```js
@@ -38,5 +39,3 @@ const output = await concat({
   inputs: ['file1.mp4', 'file2.mp4', ...]
 })
 ```
-
-
