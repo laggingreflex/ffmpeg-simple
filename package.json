@@ -15,6 +15,7 @@
   "repository": "laggingreflex/ffmpeg-simple",
   "dependencies": {
     "date-fns": "^2.13.0",
+    "eloquent-ffmpeg": "^0.14.0",
     "enquire-simple": "^2.4.0",
     "fluent-ffmpeg": "^2.1.2",
     "fs-extra": "^9.0.0",
